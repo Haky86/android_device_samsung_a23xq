@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.a23xq.rc
 
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
+
 # Touchscreen
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/touchscreen/TSP1_SPEC_15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/TSP1_SPEC_15.txt \
