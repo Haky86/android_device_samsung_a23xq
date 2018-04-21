@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
     FrameworkResOverlayCommon \
     SettingsProviderOverlayCommon \
+    SettingsLibOverlayCommon \
     SystemUIOverlayCommon \
     TelecommOverlayCommon \
     TelephonyOverlayCommon \
