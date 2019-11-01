@@ -17,8 +17,7 @@ PRODUCT_PACKAGES += \
     SettingsLibOverlayCommon \
     SystemUIOverlayCommon \
     TelecommOverlayCommon \
-    TelephonyOverlayCommon \
-    WifiResourcesOverlayCommon
+    TelephonyOverlayCommon
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/a23xq/a23xq-vendor.mk)
