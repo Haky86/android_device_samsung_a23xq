@@ -193,3 +193,6 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Treble
 BOARD_VNDK_VERSION := current
+
+# Get non-open-source specific aspects
+include vendor/samsung/a23xq/BoardConfigVendor.mk
