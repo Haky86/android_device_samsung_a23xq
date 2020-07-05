@@ -184,3 +184,6 @@ BOARD_ROOT_EXTRA_FOLDERS := \
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2026-08-01
+
+# SEPolicy
+include device/qcom/sepolicy_vndr/SEPolicy.mk
