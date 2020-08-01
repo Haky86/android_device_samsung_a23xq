@@ -157,3 +157,5 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     wcd937x_dlkm.ko \
     wcd937x_slave_dlkm.ko \
     wcd_core_dlkm.ko
+
+TARGET_MODULE_ALIASES += wlan.ko:qca_cld3_wlan.ko
