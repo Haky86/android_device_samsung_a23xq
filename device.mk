@@ -21,6 +21,13 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2.vendor \
+    com.android.nfc_extras \
+    libchrome \
+    libchrome.vendor \
+    Tag
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/nfc/nfc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/st21nfc_conf.txt \
     $(DEVICE_PATH)/configs/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
