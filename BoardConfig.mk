@@ -80,6 +80,7 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
+    androidboot.selinux=permissive \
     androidboot.usbcontroller=4e00000.dwc3 \
     cgroup.memory=nokmem,nosocket \
     console=NULL \
