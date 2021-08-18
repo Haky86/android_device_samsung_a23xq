@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
     FrameworkResOverlayCommon \
     LineageDialerOverlayCommon \
+    LineagePartsOverlayCommon \
     LineageSDKOverlayCommon \
     SettingsProviderOverlayCommon \
     SettingsLibOverlayCommon \
