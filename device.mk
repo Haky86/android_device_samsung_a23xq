@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
     LineageDialerOverlayCommon \
     LineagePartsOverlayCommon \
     LineageSDKOverlayCommon \
+    SettingsOverlayCommon \
     SettingsProviderOverlayCommon \
     SettingsLibOverlayCommon \
     SystemUIOverlayCommon \
