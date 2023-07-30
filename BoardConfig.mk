@@ -50,3 +50,6 @@ TARGET_NO_RPC := true
 
 # Dexpreopt
 BOARD_USES_SYSTEM_OTHER_ODEX := true
+
+# Display
+TARGET_SCREEN_DENSITY := 450
