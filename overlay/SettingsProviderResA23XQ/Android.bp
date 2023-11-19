@@ -5,6 +5,6 @@
 
 runtime_resource_overlay {
     name: "SettingsProviderResA23XQ",
-    device_specific: true,
+    vendor: true,
     aaptflags: ["--keep-raw-values"],
 }
