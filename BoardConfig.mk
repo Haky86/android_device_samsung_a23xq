@@ -11,6 +11,7 @@ DEVICE_PATH := device/samsung/a23xq
 TARGET_OTA_ASSERT_DEVICE := a23xq
 
 # Board
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_BOARD_NAME := SRPVC22C013
 
 # Kernel
