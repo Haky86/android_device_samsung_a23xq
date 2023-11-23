@@ -34,3 +34,6 @@ TARGET_2ND_CPU_VARIANT := cortex-a55
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := a23xq
+
+# Board
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
