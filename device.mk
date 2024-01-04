@@ -9,7 +9,6 @@ DEVICE_PATH := device/samsung/a23xq
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayCommon \
     FrameworkResOverlayCommon \
     FrameworkResOverlaySamsung \
     LineageDialerOverlayCommon \
