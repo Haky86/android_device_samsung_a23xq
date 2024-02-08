@@ -70,4 +70,4 @@ DEVICE_MANIFEST_FILE := \
     $(DEVICE_PATH)/hidl/manifest.xml
     
 DEVICE_MATRIX_FILE := \
-    $(DEVICE_PATH)/hidl/compatibility_matrix.xml
+    hardware/qcom-caf/common/compatibility_matrix.xml
