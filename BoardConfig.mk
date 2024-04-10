@@ -176,3 +176,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
+
+# Rootfs
+BOARD_ROOT_EXTRA_FOLDERS := \
+    efs \
+    metadata
