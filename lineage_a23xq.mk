@@ -25,9 +25,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Vendor Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a23xqnsxx-user 11 RP1A.200720.012 A236BXXSGEZH2 release-keys" \
-    PRODUCT_DEVICE=a23xq \
-    PRODUCT_NAME=a23xqnsxx \
-    TARGET_BOOTLOADER_BOARD_NAME=sm6375
-
-BUILD_FINGERPRINT := "samsung/a23xqnsxx/a23xq:11/RP1A.200720.012/A236BXXSGEZH2:user/release-keys"
+    BuildDesc="a23xqnsxx-user 11 RP1A.200720.012 A236BXXSGEZH2 release-keys" \
+    BuildFingerprint=samsung/a23xqnsxx/a23xq:11/RP1A.200720.012/A236BXXSGEZH2:user/release-keys
