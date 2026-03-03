@@ -1,0 +1,11 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.a23xq.rc",
+    src: "etc/hw/init.a23xq.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
