@@ -60,3 +60,13 @@ TARGET_ENABLE_MEDIADRM_64 := true
 
 # FSConfig
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    $(DEVICE_PATH)/hidl/compatibility_matrix.device.xml
+
+DEVICE_MANIFEST_FILE := \
+    $(DEVICE_PATH)/hidl/manifest.xml
+    
+DEVICE_MATRIX_FILE := \
+    $(DEVICE_PATH)/hidl/compatibility_matrix.xml
