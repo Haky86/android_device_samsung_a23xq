@@ -181,3 +181,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 BOARD_ROOT_EXTRA_FOLDERS := \
     efs \
     metadata
+
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2026-08-01
