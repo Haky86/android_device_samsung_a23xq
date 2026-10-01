@@ -187,3 +187,6 @@ VENDOR_SECURITY_PATCH := 2026-08-01
 
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
